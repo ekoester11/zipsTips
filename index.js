@@ -706,7 +706,9 @@ function formatList() {
         if(tip.important) {
             li.style.fontWeight = "bold"
         }
+        let br = document.createElement("br")
         list.appendChild(li);
+        list.appendChild(br);
     })
 }
 
